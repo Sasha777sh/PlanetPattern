@@ -88,5 +88,7 @@
 
 Код открыт под лицензией **CC BY-SA 4.0**.  
 
-Репозиторий: [github.com/Sasha777sh/PlanetPattern](https://github.com/Sasha777sh/PlanetPattern)
+**Репозитории:**
+- Planet Pattern (этот прототип): [github.com/Sasha777sh/PlanetPattern](https://github.com/Sasha777sh/PlanetPattern)
+- Основной проект (Физика Живого): [github.com/Sasha777sh/EDEM-Breath-Field](https://github.com/Sasha777sh/EDEM-Breath-Field)
 

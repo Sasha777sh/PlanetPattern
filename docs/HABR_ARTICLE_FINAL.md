@@ -202,7 +202,8 @@ streamlit run dashboard/planet_pattern_app.py
 
 ## 📚 Ссылки
 
-- **Код:** <https://github.com/Sasha777sh/PlanetPattern>
+- **Код (Planet Pattern):** <https://github.com/Sasha777sh/PlanetPattern>
+- **Основной проект (Физика Живого):** <https://github.com/Sasha777sh/EDEM-Breath-Field>
 - **Документация:** [README.md](https://github.com/Sasha777sh/PlanetPattern/blob/main/README.md)
 - **Технологии новой цивилизации:** [docs/technologies_of_new_civilization.md](https://github.com/Sasha777sh/PlanetPattern/blob/main/docs/technologies_of_new_civilization.md)
 
@@ -234,4 +235,6 @@ streamlit run dashboard/planet_pattern_app.py
 
 **Лицензия:** CC BY-SA 4.0
 
-**Репозиторий:** <https://github.com/Sasha777sh/PlanetPattern>
+**Репозитории:**
+- Planet Pattern: <https://github.com/Sasha777sh/PlanetPattern>
+- Основной проект (Физика Живого): <https://github.com/Sasha777sh/EDEM-Breath-Field>
