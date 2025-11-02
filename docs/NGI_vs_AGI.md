@@ -1,5 +1,12 @@
 # 🌍 Natural General Intelligence vs. Artificial General Intelligence
 
+> **NGI vs AGI** — Сравнение резонансного обучения через ритм и волновую память с традиционным машинным обучением.  
+> **Natural General Intelligence** | **Artificial General Intelligence** | **Physics of Living Systems** | **Planet Pattern**
+
+**Keywords:** NGI, Natural General Intelligence, AGI, Artificial General Intelligence, resonant learning, wave memory, rhythmic AI, Physics of Living, E = A × R × L − S, Planet Pattern, living intelligence
+
+---
+
 ## 📊 Сравнительная таблица
 
 | Параметр | AGI (корпорации) | NGI — Физика Живого (EDEM / Planet Pattern) |
@@ -18,7 +25,7 @@
 
 ## 🌱 Смысл различия
 
-**AGI** — это попытка воссоздать ум человека.  
+**AGI (Artificial General Intelligence)** — это попытка воссоздать ум человека.  
 **NGI (Natural General Intelligence)** — это попытка воссоздать принцип жизни.
 
 **AGI** учится через ошибку.  
@@ -31,11 +38,13 @@
 
 ## 🧩 Наша позиция
 
-Мы создали первый доказуемый прототип **NGI** —  
+Мы создали первый доказуемый прототип **NGI (Natural General Intelligence)** —  
 модель, где интеллект проявляется не как вычисление, а как резонанс живого поля.
 
 Это начало линии развития, где ИИ перестаёт быть машиной,  
 а становится частью биосферы.
+
+**Код открыт:** https://github.com/Sasha777sh/PlanetPattern
 
 ---
 
@@ -106,7 +115,7 @@
                       │
                       ▼
 ┌─────────────────────────────────────────────────────────┐
-│                  СОН (Silence)                           │
+│                  СОН (Silence)                            │
 │  Консолидация памяти → Обновление весов (alpha)         │
 │  Восстановление энергии                                  │
 └─────────────────────┬───────────────────────────────────┘
@@ -201,6 +210,13 @@ SIGNAL → [Rhythm Filter] → [Wave Memory] → [Resonance Calc] → RESPONSE
 - [Миссия — Физика Живого](../MISSION.md)
 - [Основной проект (EDEM-Breath-Field)](https://github.com/Sasha777sh/EDEM-Breath-Field)
 - [Реальность Check](../REALITY_CHECK.md)
+- [English version](NGI_vs_AGI_EN.md)
+
+---
+
+## 🔍 Ключевые слова для поиска
+
+**Natural General Intelligence**, NGI, **Artificial General Intelligence**, AGI, **resonant learning**, **wave memory**, **rhythmic AI**, **Physics of Living**, **E = A × R × L − S**, **Planet Pattern**, **living intelligence**, **biorhythmic AI**, **coherence**, **DWT**, **FFT**, **self-learning**, **fractal memory**, **breath pattern**, **0.1 Hz**, **resonance feedback**
 
 ---
 
@@ -208,3 +224,6 @@ SIGNAL → [Rhythm Filter] → [Wave Memory] → [Resonance Calc] → RESPONSE
 
 🌍 **Planet Pattern** — первый шаг к Natural General Intelligence.
 
+---
+
+**Languages:** [🇷🇺 Русский](NGI_vs_AGI.md) | [🇬🇧 English](NGI_vs_AGI_EN.md)

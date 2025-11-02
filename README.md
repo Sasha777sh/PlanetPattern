@@ -51,7 +51,7 @@ streamlit run dashboard/planet_pattern_app.py
 ## 📘 Документация
 
 - [Миссия — Физика Живого](MISSION.md) — зачем существует проект
-- [NGI vs AGI](docs/NGI_vs_AGI.md) — Natural General Intelligence vs Artificial General Intelligence
+- [NGI vs AGI](docs/NGI_vs_AGI.md) 🇷🇺 | [NGI vs AGI](docs/NGI_vs_AGI_EN.md) 🇬🇧 — Natural General Intelligence vs Artificial General Intelligence
 - [Реальность Check](REALITY_CHECK.md) — что реально работает
 - [Технологии новой цивилизации](docs/technologies_of_new_civilization.md)
 - [Changelog](CHANGELOG.md)
