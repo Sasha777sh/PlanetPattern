@@ -22,10 +22,20 @@ Planet Pattern — это исследовательский прототип ж
 
 ## ⚙️ Запуск
 
+### Локально:
 ```bash
 pip install -r requirements.txt
 streamlit run dashboard/planet_pattern_app.py
 ```
+
+### Публичный доступ (Streamlit Cloud):
+1. Открой https://share.streamlit.io
+2. Войди через GitHub
+3. Выбери репозиторий `Sasha777sh/PlanetPattern`
+4. Main file: `dashboard/planet_pattern_app.py`
+5. Deploy!
+
+См. [QUICK_DEPLOY.md](QUICK_DEPLOY.md) для деталей.
 
 ---
 
