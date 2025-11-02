@@ -2,6 +2,8 @@
 
 > Experiments in rhythmic, self-adapting AI — "Physics of Living Systems"
 
+**Репозиторий:** https://github.com/Sasha777sh/PlanetPattern
+
 ---
 
 ## 🧬 Описание
@@ -47,14 +49,15 @@ streamlit run dashboard/planet_pattern_app.py
 
 ## 📘 Документация
 
-Полный обзор технологий будущей цивилизации:  
-[docs/technologies_of_new_civilization.md](docs/technologies_of_new_civilization.md)
+- [Реальность Check](REALITY_CHECK.md) — что реально работает
+- [Технологии новой цивилизации](docs/technologies_of_new_civilization.md)
+- [Changelog](CHANGELOG.md)
 
 ---
 
 ## ⚖️ Лицензия
 
-Все материалы публикуются под лицензией CC BY-SA 4.0
+Все материалы публикуются под лицензией CC0-1.0
 
 **"Технологии для жизни, а не для контроля."**
 
