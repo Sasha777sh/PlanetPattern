@@ -1,0 +1,25 @@
+{
+  "streamlit_entry": "dashboard/planet_pattern_app.py",
+  "dependencies_file": "requirements.txt",
+  "files": [
+    {
+      "path": "requirements.txt",
+      "sha256": "0af973ceae1e55122a04ff9341d16727ec68aa1d5edf0552e96da2d3455634c0",
+      "size": 50
+    },
+    {
+      "path": "dashboard/planet_pattern_app.py",
+      "sha256": "90736bd6e5dda2ad458eb0ecfd1ebe8134c375b936d08f50c8445c74c1038b1d",
+      "size": 6674
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "sha256": "58df2d0f2021b50e3f14335a211aecca35b2aa5a430e4e4ccc090d06b038f28a",
+      "size": 226
+    }
+  ],
+  "status": {
+    "dependencies_ok": true,
+    "config_present": true
+  }
+}

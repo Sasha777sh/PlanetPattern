@@ -236,5 +236,6 @@ streamlit run dashboard/planet_pattern_app.py
 **Лицензия:** CC BY-SA 4.0
 
 **Репозитории:**
+
 - Planet Pattern: <https://github.com/Sasha777sh/PlanetPattern>
 - Основной проект (Физика Живого): <https://github.com/Sasha777sh/EDEM-Breath-Field>
