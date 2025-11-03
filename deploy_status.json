@@ -1,11 +1,13 @@
 {
   "streamlit_entry": "dashboard/planet_pattern_app.py",
   "dependencies_file": "requirements.txt",
+  "public_url": "https://planetpattern-7plrubbahoyhsnzugugmgw.streamlit.app/",
+  "repository": "Sasha777sh/PlanetPattern",
   "files": [
     {
       "path": "requirements.txt",
-      "sha256": "0af973ceae1e55122a04ff9341d16727ec68aa1d5edf0552e96da2d3455634c0",
-      "size": 50
+      "sha256": "334f8ef8637da5d1d51b7c0de1b8c42ab182177381a0fa945bbb4abb895c3bb0",
+      "size": 106
     },
     {
       "path": "dashboard/planet_pattern_app.py",
@@ -16,10 +18,18 @@
       "path": ".streamlit/config.toml",
       "sha256": "58df2d0f2021b50e3f14335a211aecca35b2aa5a430e4e4ccc090d06b038f28a",
       "size": 226
+    },
+    {
+      "path": "runtime.txt",
+      "sha256": "22fa90cd1f8121c0165c6df911d1ea71452a179460fbe371834bb792ba42f6c9",
+      "size": 11
     }
   ],
   "status": {
+    "deployed": true,
     "dependencies_ok": true,
-    "config_present": true
+    "config_present": true,
+    "runtime_specified": true,
+    "fixes_applied": "requirements.txt updated with versions, runtime.txt added (Python 3.11)"
   }
 }

@@ -29,6 +29,10 @@ streamlit run dashboard/planet_pattern_app.py
 ```
 
 ### Публичный доступ (Streamlit Cloud):
+
+**🌐 [Открыть приложение онлайн](https://planetpattern-7plrubbahoyhsnzugugmgw.streamlit.app/)**
+
+Или деплой вручную:
 1. Открой https://share.streamlit.io
 2. Войди через GitHub
 3. Выбери репозиторий `Sasha777sh/PlanetPattern`
