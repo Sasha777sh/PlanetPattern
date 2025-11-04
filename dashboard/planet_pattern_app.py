@@ -256,43 +256,68 @@ st.markdown("""
 
 st.markdown("---")
 
-# Раздел: LLM Резонанс (без внешних API)
-with st.expander("🧠 LLM Резонанс — измерь живость текста", expanded=False):
-    from llm_resonance import LLMResonanceLayer
-
+# Раздел: LLM Резонанс — упрощённая версия
+with st.expander("🧠 Измерь живость текста", expanded=False):
+    st.markdown("""
+    **Вставь любой текст** — мы посчитаем его "энергию" по формуле **E = A × R × L − S**
+    
+    - **A (внимание)** — интенсивность
+    - **R (резонанс)** — синхронизация с ритмом
+    - **L (связь)** — когерентность
+    - **S (шум)** — хаос
+    """)
+    
     user_text = st.text_area(
-        "Вставь ответ ИИ или свой текст (мы посчитаем E = A×R×L−S)",
-        value="Это пример ответа модели о природе сознания и резонанса...",
-        height=120
+        "Твой текст:",
+        value="Это пример текста о природе сознания и резонанса...",
+        height=100,
+        help="Вставь любой текст — ответ ИИ, свой текст, что угодно"
     )
-
-    col_llm1, col_llm2 = st.columns([1, 1])
-    with col_llm1:
-        base_temp = st.slider("Базовая temperature", 0.1, 1.5, 0.7, 0.05)
-    with col_llm2:
-        fps_tokens = st.slider("Условный ритм токенов (Гц)", 0.2, 5.0, 1.0, 0.1)
-
-    if st.button("🔎 Посчитать энергию текста", type="primary"):
-        layer = LLMResonanceLayer(target_hz=0.1)
-        token_times = list(range(len(user_text.split())))
-
-        energy = layer.calculate_llm_energy(
-            attention_weights=None,           # без доступа к весам внимания берём neutral A
-            token_times=token_times,          # оцениваем R по ритму токенов
-            response_embedding=None,          # без эталона L оценивается нейтрально
-            token_probs=None                  # без распределения токенов S нейтрально
-        )
-        feedback = layer.get_energy_feedback(energy)
-        new_temp = layer.adapt_temperature(energy["E"], base_temperature=base_temp)
-
-        st.markdown("#### Метрики живости текста")
-        m1, m2, m3, m4, m5 = st.columns(5)
-        m1.metric("A (внимание)", f"{energy['A']:.3f}")
-        m2.metric("R (резонанс)", f"{energy['R']:.3f}")
-        m3.metric("L (связь)", f"{energy['L']:.3f}")
-        m4.metric("S (шум)", f"{energy['S']:.3f}")
-        m5.metric("E (энергия)", f"{energy['E']:.3f}")
-
-        st.info(feedback)
-        st.caption(f"Рекомендуемая temperature для модели: {new_temp:.2f}")
+    
+    if st.button("🔎 Посчитать энергию", type="primary"):
+        try:
+            import sys
+            import os
+            sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+            from llm_resonance import LLMResonanceLayer
+            
+            if not user_text or len(user_text.strip()) < 5:
+                st.warning("Введи текст хотя бы из 5 символов")
+            else:
+                layer = LLMResonanceLayer(target_hz=0.1)
+                token_times = list(range(len(user_text.split())))
+                
+                energy = layer.calculate_llm_energy(
+                    attention_weights=None,
+                    token_times=token_times,
+                    response_embedding=None,
+                    token_probs=None
+                )
+                feedback = layer.get_energy_feedback(energy)
+                
+                # Простые метрики
+                st.markdown("### 📊 Результат:")
+                col1, col2 = st.columns(2)
+                
+                with col1:
+                    st.metric("⚡ Энергия (E)", f"{energy['E']:.3f}")
+                    st.metric("👁 Внимание (A)", f"{energy['A']:.3f}")
+                    st.metric("💓 Резонанс (R)", f"{energy['R']:.3f}")
+                
+                with col2:
+                    st.metric("❤️ Связь (L)", f"{energy['L']:.3f}")
+                    st.metric("🌀 Шум (S)", f"{energy['S']:.3f}")
+                    st.metric("📝 Слов", len(user_text.split()))
+                
+                # Обратная связь
+                if energy['E'] > 0.3:
+                    st.success(f"✅ {feedback}")
+                elif energy['E'] > 0:
+                    st.info(f"🌀 {feedback}")
+                else:
+                    st.warning(f"⚠️ {feedback}")
+                    
+        except Exception as e:
+            st.error(f"Ошибка: {str(e)}")
+            st.caption("Если видишь эту ошибку — напиши разработчику")
 
