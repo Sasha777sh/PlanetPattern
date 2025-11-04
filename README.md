@@ -2,7 +2,10 @@
 
 > Experiments in rhythmic, self-adapting AI — "Physics of Living Systems"
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://planetpattern-7plrubbahoyhsnzugugmgw.streamlit.app/)
+
 **Репозиторий:** https://github.com/Sasha777sh/PlanetPattern  
+**🌐 Публичное приложение:** https://planetpattern-7plrubbahoyhsnzugugmgw.streamlit.app/  
 **Основной проект (Физика Живого):** https://github.com/Sasha777sh/EDEM-Breath-Field
 
 ---
